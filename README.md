@@ -1,5 +1,4 @@
-# Домашнее задание к занятию "Что такое DevOps. СI/СD" - Левин Игорь
-
+# Домашнее задание к занятию "Что такое DevOps. СI/СD"
 
 ### Задание 1
 
@@ -106,7 +105,7 @@ pipeline {
  agent any
  stages {
   stage('Git') {
-   steps {git 'https://github.com/elekpow/sdvps-materials.git'}
+   steps {git 'https://github.com/mildzikhov01/DZ_DevOps_CI_CD.git'}
   }
   stage('Test') {
    steps {
@@ -129,9 +128,9 @@ pipeline {
 
 Результат выполения сборки и отправки файла в репозиторий
 
-![screen](https://github.com/elekpow/8-03-hw/blob/main/jenkins_build_go.JPG)
+![screen](https://github.com/mildzikhov01/DZ_8_03/blob/main/jenkins_build_go.JPG)
 
 Результат загрузки файла в репозиторий
 
-![screen](https://github.com/elekpow/8-03-hw/blob/main/nexus_repo-rh-8-03-hw.JPG)
+![screen](https://github.com/mildzikhov01/DZ_8_03/blob/main/nexus_repo-rh-8-03-hw.JPG)
 
